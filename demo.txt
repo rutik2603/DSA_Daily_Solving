@@ -1,0 +1,19 @@
+public class powerOfTwo {
+
+    public static int Power(int num,int pow)
+    {
+        int ans=1;
+        for(int i=1;i<=4;i++)
+        {
+            ans*=num;
+        }
+        return ans;
+    }
+
+    public static void main(String args[])
+    {
+        int num=2;
+        int pow=4;
+        System.out.print(Power(num,pow));
+    }
+}
